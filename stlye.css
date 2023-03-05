@@ -1,0 +1,123 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    height: auto;
+    background-color: #eee;
+}
+/* New */
+main{
+    margin: auto;
+    max-width: 800px;
+    background-color: #fff;
+}
+.cover{
+    display: flex;
+  height: 100%;
+  width: auto;
+}
+.text{
+    background-color: #fff;
+    height: 100vh;
+    flex: 0 40vw;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.firstimg{
+    background-color: #cc1414;
+    height: 100vh;
+    flex: 0 55vw;
+    background-image: url(https://res.cloudinary.com/dkrt7ilhg/image/upload/v1678025793/Survey%20form/photo-1607462109225-6b64ae2dd3cb_kwnitj.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 45px;
+    margin-top: 70%;
+}
+p{
+    padding: 8px;
+    font-size: 30px;
+}
+.button{
+    border: 2px solid rgb(159, 31, 31);
+    border-radius: 25px;
+    width: 100px;
+    margin: auto;
+    padding: 14px;
+    cursor: pointer;
+   transition: 1s ease-in-out;
+   
+}
+
+.button:hover{
+    background-color: rgb(87, 82, 82);
+ 
+}
+.header{
+    text-align: center;
+    padding: 0.6rem;
+    background: #333333;
+}
+h2{
+  display: inline-block;
+    color: #fff;
+    border-right: dotted white;
+    border-left: dotted white;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+img{
+    width: 100%;
+}
+.caption{
+  text-align: center;
+ padding: 0.2rem;
+}
+h3{
+    padding: 1px;
+    font-size: 22px;
+}
+.a{
+    font-size: 15px;
+}
+.footer{
+   
+    text-align: center;
+    height: auto;
+  padding: 10px;
+  margin: 20px;
+}
+h4{
+    font-size: 25px;
+    margin: 10px;
+}
+.footpara{
+    margin: 1px;
+    font-size: 15px;  
+}
+.telephone{
+    text-decoration: #cc1414;
+    color: #cc1414;
+    font-size: 20px;
+}
+@media (max-width: 840px) {
+main{
+    width: auto;
+height: auto;
+}.cover{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.text{
+    margin: auto;
+}
+
+}
+    
+
